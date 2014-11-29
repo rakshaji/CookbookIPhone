@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400A8A601A299D0F008E7907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A5F1A299D0F008E7907 /* Foundation.framework */; };
+		400A8A621A299D0F008E7907 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A611A299D0F008E7907 /* CoreGraphics.framework */; };
+		400A8A641A299D0F008E7907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A631A299D0F008E7907 /* UIKit.framework */; };
+		400A8A6A1A299D0F008E7907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A681A299D0F008E7907 /* InfoPlist.strings */; };
+		400A8A6C1A299D0F008E7907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A6B1A299D0F008E7907 /* main.m */; };
+		400A8A701A299D0F008E7907 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */; };
+		400A8A731A299D0F008E7907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A711A299D0F008E7907 /* Main.storyboard */; };
+		400A8A761A299D0F008E7907 /* RSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A751A299D0F008E7907 /* RSFirstViewController.m */; };
+		400A8A791A299D0F008E7907 /* RSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A781A299D0F008E7907 /* RSSecondViewController.m */; };
+		400A8A7B1A299D0F008E7907 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A7A1A299D0F008E7907 /* Images.xcassets */; };
+		400A8A821A299D10008E7907 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A811A299D0F008E7907 /* XCTest.framework */; };
+		400A8A831A299D10008E7907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A5F1A299D0F008E7907 /* Foundation.framework */; };
+		400A8A841A299D10008E7907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A631A299D0F008E7907 /* UIKit.framework */; };
+		400A8A8C1A299D10008E7907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A8A1A299D10008E7907 /* InfoPlist.strings */; };
+		400A8A8E1A299D10008E7907 /* CookbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A8D1A299D10008E7907 /* CookbookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		400A8A851A299D10008E7907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400A8A541A299D0F008E7907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400A8A5B1A299D0F008E7907;
+			remoteInfo = Cookbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400A8A5C1A299D0F008E7907 /* Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		400A8A5F1A299D0F008E7907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		400A8A611A299D0F008E7907 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		400A8A631A299D0F008E7907 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		400A8A671A299D0F008E7907 /* Cookbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cookbook-Info.plist"; sourceTree = "<group>"; };
+		400A8A691A299D0F008E7907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		400A8A6B1A299D0F008E7907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		400A8A6D1A299D0F008E7907 /* Cookbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cookbook-Prefix.pch"; sourceTree = "<group>"; };
+		400A8A6E1A299D0F008E7907 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		400A8A721A299D0F008E7907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		400A8A741A299D0F008E7907 /* RSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSFirstViewController.h; sourceTree = "<group>"; };
+		400A8A751A299D0F008E7907 /* RSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSFirstViewController.m; sourceTree = "<group>"; };
+		400A8A771A299D0F008E7907 /* RSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSecondViewController.h; sourceTree = "<group>"; };
+		400A8A781A299D0F008E7907 /* RSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSecondViewController.m; sourceTree = "<group>"; };
+		400A8A7A1A299D0F008E7907 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		400A8A801A299D0F008E7907 /* CookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		400A8A811A299D0F008E7907 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		400A8A891A299D10008E7907 /* CookbookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookbookTests-Info.plist"; sourceTree = "<group>"; };
+		400A8A8B1A299D10008E7907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		400A8A8D1A299D10008E7907 /* CookbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookbookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400A8A591A299D0F008E7907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8A621A299D0F008E7907 /* CoreGraphics.framework in Frameworks */,
+				400A8A641A299D0F008E7907 /* UIKit.framework in Frameworks */,
+				400A8A601A299D0F008E7907 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400A8A7D1A299D0F008E7907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8A821A299D10008E7907 /* XCTest.framework in Frameworks */,
+				400A8A841A299D10008E7907 /* UIKit.framework in Frameworks */,
+				400A8A831A299D10008E7907 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400A8A531A299D0F008E7907 = {
+			isa = PBXGroup;
+			children = (
+				400A8A651A299D0F008E7907 /* Cookbook */,
+				400A8A871A299D10008E7907 /* CookbookTests */,
+				400A8A5E1A299D0F008E7907 /* Frameworks */,
+				400A8A5D1A299D0F008E7907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400A8A5D1A299D0F008E7907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A5C1A299D0F008E7907 /* Cookbook.app */,
+				400A8A801A299D0F008E7907 /* CookbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400A8A5E1A299D0F008E7907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A5F1A299D0F008E7907 /* Foundation.framework */,
+				400A8A611A299D0F008E7907 /* CoreGraphics.framework */,
+				400A8A631A299D0F008E7907 /* UIKit.framework */,
+				400A8A811A299D0F008E7907 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400A8A651A299D0F008E7907 /* Cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A6E1A299D0F008E7907 /* RSAppDelegate.h */,
+				400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */,
+				400A8A711A299D0F008E7907 /* Main.storyboard */,
+				400A8A741A299D0F008E7907 /* RSFirstViewController.h */,
+				400A8A751A299D0F008E7907 /* RSFirstViewController.m */,
+				400A8A771A299D0F008E7907 /* RSSecondViewController.h */,
+				400A8A781A299D0F008E7907 /* RSSecondViewController.m */,
+				400A8A7A1A299D0F008E7907 /* Images.xcassets */,
+				400A8A661A299D0F008E7907 /* Supporting Files */,
+			);
+			path = Cookbook;
+			sourceTree = "<group>";
+		};
+		400A8A661A299D0F008E7907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A671A299D0F008E7907 /* Cookbook-Info.plist */,
+				400A8A681A299D0F008E7907 /* InfoPlist.strings */,
+				400A8A6B1A299D0F008E7907 /* main.m */,
+				400A8A6D1A299D0F008E7907 /* Cookbook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		400A8A871A299D10008E7907 /* CookbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A8D1A299D10008E7907 /* CookbookTests.m */,
+				400A8A881A299D10008E7907 /* Supporting Files */,
+			);
+			path = CookbookTests;
+			sourceTree = "<group>";
+		};
+		400A8A881A299D10008E7907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A891A299D10008E7907 /* CookbookTests-Info.plist */,
+				400A8A8A1A299D10008E7907 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400A8A5B1A299D0F008E7907 /* Cookbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400A8A911A299D10008E7907 /* Build configuration list for PBXNativeTarget "Cookbook" */;
+			buildPhases = (
+				400A8A581A299D0F008E7907 /* Sources */,
+				400A8A591A299D0F008E7907 /* Frameworks */,
+				400A8A5A1A299D0F008E7907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cookbook;
+			productName = Cookbook;
+			productReference = 400A8A5C1A299D0F008E7907 /* Cookbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		400A8A7F1A299D0F008E7907 /* CookbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400A8A941A299D10008E7907 /* Build configuration list for PBXNativeTarget "CookbookTests" */;
+			buildPhases = (
+				400A8A7C1A299D0F008E7907 /* Sources */,
+				400A8A7D1A299D0F008E7907 /* Frameworks */,
+				400A8A7E1A299D0F008E7907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				400A8A861A299D10008E7907 /* PBXTargetDependency */,
+			);
+			name = CookbookTests;
+			productName = CookbookTests;
+			productReference = 400A8A801A299D0F008E7907 /* CookbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400A8A541A299D0F008E7907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Raksha Singhania";
+				TargetAttributes = {
+					400A8A7F1A299D0F008E7907 = {
+						TestTargetID = 400A8A5B1A299D0F008E7907;
+					};
+				};
+			};
+			buildConfigurationList = 400A8A571A299D0F008E7907 /* Build configuration list for PBXProject "Cookbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400A8A531A299D0F008E7907;
+			productRefGroup = 400A8A5D1A299D0F008E7907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400A8A5B1A299D0F008E7907 /* Cookbook */,
+				400A8A7F1A299D0F008E7907 /* CookbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400A8A5A1A299D0F008E7907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8A7B1A299D0F008E7907 /* Images.xcassets in Resources */,
+				400A8A6A1A299D0F008E7907 /* InfoPlist.strings in Resources */,
+				400A8A731A299D0F008E7907 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400A8A7E1A299D0F008E7907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8A8C1A299D10008E7907 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400A8A581A299D0F008E7907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8A6C1A299D0F008E7907 /* main.m in Sources */,
+				400A8A701A299D0F008E7907 /* RSAppDelegate.m in Sources */,
+				400A8A761A299D0F008E7907 /* RSFirstViewController.m in Sources */,
+				400A8A791A299D0F008E7907 /* RSSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400A8A7C1A299D0F008E7907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8A8E1A299D10008E7907 /* CookbookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		400A8A861A299D10008E7907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400A8A5B1A299D0F008E7907 /* Cookbook */;
+			targetProxy = 400A8A851A299D10008E7907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		400A8A681A299D0F008E7907 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400A8A691A299D0F008E7907 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		400A8A711A299D0F008E7907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400A8A721A299D0F008E7907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		400A8A8A1A299D10008E7907 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400A8A8B1A299D10008E7907 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		400A8A8F1A299D10008E7907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		400A8A901A299D10008E7907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400A8A921A299D10008E7907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
+				INFOPLIST_FILE = "Cookbook/Cookbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		400A8A931A299D10008E7907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
+				INFOPLIST_FILE = "Cookbook/Cookbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		400A8A951A299D10008E7907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cookbook.app/Cookbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CookbookTests/CookbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		400A8A961A299D10008E7907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cookbook.app/Cookbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
+				INFOPLIST_FILE = "CookbookTests/CookbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400A8A571A299D0F008E7907 /* Build configuration list for PBXProject "Cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400A8A8F1A299D10008E7907 /* Debug */,
+				400A8A901A299D10008E7907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400A8A911A299D10008E7907 /* Build configuration list for PBXNativeTarget "Cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400A8A921A299D10008E7907 /* Debug */,
+				400A8A931A299D10008E7907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		400A8A941A299D10008E7907 /* Build configuration list for PBXNativeTarget "CookbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400A8A951A299D10008E7907 /* Debug */,
+				400A8A961A299D10008E7907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 400A8A541A299D0F008E7907 /* Project object */;
+}
