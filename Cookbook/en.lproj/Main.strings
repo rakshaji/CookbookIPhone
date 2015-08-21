@@ -1,0 +1,105 @@
+
+/* Class = "IBUITextField"; placeholder = "Total Time"; ObjectID = "3JM-lh-X4p"; */
+"3JM-lh-X4p.placeholder" = "Total Time";
+
+/* Class = "IBUIViewController"; title = "Recipes"; ObjectID = "3Nw-3m-X7R"; */
+"3Nw-3m-X7R.title" = "Recipes";
+
+/* Class = "IBUITextField"; placeholder = "Prep. Time"; ObjectID = "3pP-Sj-sXW"; */
+"3pP-Sj-sXW.placeholder" = "Prep. Time";
+
+/* Class = "IBUINavigationItem"; title = "Recipes"; ObjectID = "4Wu-b5-3hG"; */
+"4Wu-b5-3hG.title" = "Recipes";
+
+/* Class = "IBUIBarButtonItem"; title = "Recipes"; ObjectID = "56K-Mw-8YR"; */
+"56K-Mw-8YR.title" = "Recipes";
+
+/* Class = "IBUIBarButtonItem"; title = "Search"; ObjectID = "5xn-nh-9wX"; */
+"5xn-nh-9wX.title" = "Search";
+
+/* Class = "IBUITextField"; placeholder = "Title"; ObjectID = "6eB-XM-BlM"; */
+"6eB-XM-BlM.placeholder" = "Title";
+
+/* Class = "IBUINavigationController"; title = "Recipes"; ObjectID = "8P1-5q-akx"; */
+"8P1-5q-akx.title" = "Recipes";
+
+/* Class = "IBUITabBarController"; title = "EntryController"; ObjectID = "8YX-ce-x5E"; */
+"8YX-ce-x5E.title" = "EntryController";
+
+/* Class = "IBUITabBarItem"; title = "Recipes"; ObjectID = "BMG-DZ-I2M"; */
+"BMG-DZ-I2M.title" = "Recipes";
+
+/* Class = "IBUIViewController"; title = "Recipes"; ObjectID = "CZ4-MO-1fc"; */
+"CZ4-MO-1fc.title" = "Recipes";
+
+/* Class = "IBUITextField"; placeholder = "Calories"; ObjectID = "D12-oe-xa6"; */
+"D12-oe-xa6.placeholder" = "Calories";
+
+/* Class = "IBUITabBarItem"; title = "Recipes"; ObjectID = "Ijo-9K-sHp"; */
+"Ijo-9K-sHp.title" = "Recipes";
+
+/* Class = "IBUINavigationController"; title = "CollectionNavController"; ObjectID = "P2a-BO-BKr"; */
+"P2a-BO-BKr.title" = "CollectionNavController";
+
+/* Class = "IBUINavigationItem"; title = "Recipes"; ObjectID = "SzJ-k5-40d"; */
+"SzJ-k5-40d.title" = "Recipes";
+
+/* Class = "IBUIBarButtonItem"; title = "Collection"; ObjectID = "TuK-Zl-U9q"; */
+"TuK-Zl-U9q.title" = "Collection";
+
+/* Class = "IBUINavigationItem"; title = "Search"; ObjectID = "UCF-N4-lcu"; */
+"UCF-N4-lcu.title" = "Search";
+
+/* Class = "IBUINavigationItem"; title = "Recipes"; ObjectID = "XmQ-2P-ixF"; */
+"XmQ-2P-ixF.title" = "Recipes";
+
+/* Class = "IBUIBarButtonItem"; title = "Select"; ObjectID = "Y4M-IG-iCO"; */
+"Y4M-IG-iCO.title" = "Select";
+
+/* Class = "IBUILabel"; text = "Ingredients"; ObjectID = "Z90-xd-BUx"; */
+"Z90-xd-BUx.text" = "Ingredients";
+
+/* Class = "IBUIViewController"; title = "AddRecipeController"; ObjectID = "aI4-jK-tyZ"; */
+"aI4-jK-tyZ.title" = "AddRecipeController";
+
+/* Class = "IBUINavigationItem"; title = "Add Recipes"; ObjectID = "alu-SV-9zN"; */
+"alu-SV-9zN.title" = "Add Recipes";
+
+/* Class = "IBUITextField"; placeholder = "Yields"; ObjectID = "bDf-GD-bcS"; */
+"bDf-GD-bcS.placeholder" = "Yields";
+
+/* Class = "IBUINavigationItem"; title = "Collection"; ObjectID = "cMc-xc-HfV"; */
+"cMc-xc-HfV.title" = "Collection";
+
+/* Class = "IBUILabel"; text = "Method"; ObjectID = "d9f-FM-jju"; */
+"d9f-FM-jju.text" = "Method";
+
+/* Class = "IBUITabBarItem"; title = "Collection"; ObjectID = "erh-So-QYH"; */
+"erh-So-QYH.title" = "Collection";
+
+/* Class = "IBUILabel"; text = "Method"; ObjectID = "lgc-95-yvb"; */
+"lgc-95-yvb.text" = "Method";
+
+/* Class = "IBUITabBarItem"; title = "Collection"; ObjectID = "mwC-KE-vam"; */
+"mwC-KE-vam.title" = "Collection";
+
+/* Class = "IBUITextView"; text = "Notes"; ObjectID = "p4s-iN-bQ3"; */
+"p4s-iN-bQ3.text" = "Notes";
+
+/* Class = "IBUITextField"; placeholder = "Cook Time"; ObjectID = "qMj-we-Afx"; */
+"qMj-we-Afx.placeholder" = "Cook Time";
+
+/* Class = "IBUINavigationItem"; title = "Recipes"; ObjectID = "rc5-tS-9Sw"; */
+"rc5-tS-9Sw.title" = "Recipes";
+
+/* Class = "IBUITextField"; placeholder = "Collection"; ObjectID = "srA-7b-dcX"; */
+"srA-7b-dcX.placeholder" = "Collection";
+
+/* Class = "IBUITabBarItem"; title = "Recipes"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "Recipes";
+
+/* Class = "IBUITextField"; placeholder = "Cuisine"; ObjectID = "uz8-Go-A9f"; */
+"uz8-Go-A9f.placeholder" = "Cuisine";
+
+/* Class = "IBUITableViewController"; title = "CollectionViewController"; ObjectID = "zI9-gB-oL2"; */
+"zI9-gB-oL2.title" = "CollectionViewController";

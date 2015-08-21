@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "RSDatabaseAccess.h"
+#import "RSRecipe.h"
 
 @interface CookbookTests : XCTestCase
 
@@ -28,7 +30,16 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    RSDatabaseAccess *con = [RSDatabaseAccess instance];
+    NSMutableArray *rows = [con fetchAllRecipes];
+    //XCTAssertTrue(rows.count == 1);
+    //XCTAssertTrue(rows.count == 2);
+    
+    // RSRecipe *recipe = [RSRecipe new];
+    //recipe.recipeTitle = @"MyRecipe2";
+    //XCTAssertTrue([con save:recipe] == YES);
+    
+    XCTAssertTrue(rows.count > 0);
 }
 
 @end

@@ -14,14 +14,38 @@
 		400A8A6C1A299D0F008E7907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A6B1A299D0F008E7907 /* main.m */; };
 		400A8A701A299D0F008E7907 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */; };
 		400A8A731A299D0F008E7907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A711A299D0F008E7907 /* Main.storyboard */; };
-		400A8A761A299D0F008E7907 /* RSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A751A299D0F008E7907 /* RSFirstViewController.m */; };
-		400A8A791A299D0F008E7907 /* RSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A781A299D0F008E7907 /* RSSecondViewController.m */; };
+		400A8A761A299D0F008E7907 /* RSRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A751A299D0F008E7907 /* RSRecipeViewController.m */; };
 		400A8A7B1A299D0F008E7907 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A7A1A299D0F008E7907 /* Images.xcassets */; };
 		400A8A821A299D10008E7907 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A811A299D0F008E7907 /* XCTest.framework */; };
 		400A8A831A299D10008E7907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A5F1A299D0F008E7907 /* Foundation.framework */; };
 		400A8A841A299D10008E7907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8A631A299D0F008E7907 /* UIKit.framework */; };
 		400A8A8C1A299D10008E7907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 400A8A8A1A299D10008E7907 /* InfoPlist.strings */; };
 		400A8A8E1A299D10008E7907 /* CookbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A8D1A299D10008E7907 /* CookbookTests.m */; };
+		400A8A991A299D6B008E7907 /* RSRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A981A299D6B008E7907 /* RSRecipe.m */; };
+		400A8A9C1A299D93008E7907 /* RSCuisine.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A9B1A299D93008E7907 /* RSCuisine.m */; };
+		400A8A9F1A299DA2008E7907 /* RSCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8A9E1A299DA2008E7907 /* RSCollection.m */; };
+		400A8AA21A299DB8008E7907 /* RSSteps.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8AA11A299DB8008E7907 /* RSSteps.m */; };
+		400A8AA51A299DD1008E7907 /* RSIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8AA41A299DD1008E7907 /* RSIngredient.m */; };
+		400A8AA81A29A373008E7907 /* RSDatabaseAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8AA71A29A373008E7907 /* RSDatabaseAccess.m */; };
+		400A8AAA1A29A4D8008E7907 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A8AA91A29A4D8008E7907 /* libsqlite3.dylib */; };
+		400A8B861A2FAEC7008E7907 /* RSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B851A2FAEC7008E7907 /* RSUtility.m */; };
+		400A8B891A310A62008E7907 /* RSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B881A310A62008E7907 /* RSSearchViewController.m */; };
+		400A8B8C1A3118E4008E7907 /* RSConditionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B8B1A3118E4008E7907 /* RSConditionTableViewController.m */; };
+		400A8B8E1A311D71008E7907 /* RSAddRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B8D1A311D71008E7907 /* RSAddRecipeViewController.m */; };
+		400A8B931A323615008E7907 /* RSOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B921A323615008E7907 /* RSOptionsTableViewController.m */; };
+		400A8B971A325675008E7907 /* RSDataExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B961A325675008E7907 /* RSDataExchange.m */; };
+		400A8B9E1A32AE35008E7907 /* RSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8B9D1A32AE34008E7907 /* RSConstants.m */; };
+		400A8BA31A32C5BA008E7907 /* RSSearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8BA21A32C5BA008E7907 /* RSSearchResultTableViewController.m */; };
+		400A8BA61A32DD48008E7907 /* RSSearchCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8BA51A32DD48008E7907 /* RSSearchCriteria.m */; };
+		40A93EC51A3AB837001BEDD2 /* Cookbook.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 40A93EC41A3AB837001BEDD2 /* Cookbook.sqlite */; };
+		40A93ECA1A3ABD57001BEDD2 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A93EC91A3ABD57001BEDD2 /* UIImage+Scale.m */; };
+		40A93ECC1A3AC0D0001BEDD2 /* Recipe-Book-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 40A93ECB1A3AC0D0001BEDD2 /* Recipe-Book-icon.png */; };
+		40A9BD631A37D97F002384B7 /* RSMethodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9BD621A37D97F002384B7 /* RSMethodTableViewController.m */; };
+		40D01D591A33A27B00B6678D /* RSAddRecipeToOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D01D581A33A27B00B6678D /* RSAddRecipeToOptionsTableViewController.m */; };
+		40D01D691A35173900B6678D /* RSAllCollectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D01D681A35173900B6678D /* RSAllCollectionsTableViewController.m */; };
+		40D01D6C1A35298900B6678D /* RSCollectionRecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D01D6B1A35298900B6678D /* RSCollectionRecipesViewController.m */; };
+		40D01D7C1A376B5500B6678D /* RSIngredientsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D01D7B1A376B5500B6678D /* RSIngredientsTableViewController.m */; };
+		40D01D851A37980000B6678D /* RSUnitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D01D841A37980000B6678D /* RSUnitTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +70,69 @@
 		400A8A6E1A299D0F008E7907 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
 		400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
 		400A8A721A299D0F008E7907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		400A8A741A299D0F008E7907 /* RSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSFirstViewController.h; sourceTree = "<group>"; };
-		400A8A751A299D0F008E7907 /* RSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSFirstViewController.m; sourceTree = "<group>"; };
-		400A8A771A299D0F008E7907 /* RSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSecondViewController.h; sourceTree = "<group>"; };
-		400A8A781A299D0F008E7907 /* RSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSecondViewController.m; sourceTree = "<group>"; };
+		400A8A741A299D0F008E7907 /* RSRecipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSRecipeViewController.h; sourceTree = "<group>"; };
+		400A8A751A299D0F008E7907 /* RSRecipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSRecipeViewController.m; sourceTree = "<group>"; };
 		400A8A7A1A299D0F008E7907 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		400A8A801A299D0F008E7907 /* CookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400A8A811A299D0F008E7907 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		400A8A891A299D10008E7907 /* CookbookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookbookTests-Info.plist"; sourceTree = "<group>"; };
 		400A8A8B1A299D10008E7907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		400A8A8D1A299D10008E7907 /* CookbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookbookTests.m; sourceTree = "<group>"; };
+		400A8A971A299D6B008E7907 /* RSRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRecipe.h; sourceTree = "<group>"; };
+		400A8A981A299D6B008E7907 /* RSRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRecipe.m; sourceTree = "<group>"; };
+		400A8A9A1A299D93008E7907 /* RSCuisine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCuisine.h; sourceTree = "<group>"; };
+		400A8A9B1A299D93008E7907 /* RSCuisine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCuisine.m; sourceTree = "<group>"; };
+		400A8A9D1A299DA2008E7907 /* RSCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCollection.h; sourceTree = "<group>"; };
+		400A8A9E1A299DA2008E7907 /* RSCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCollection.m; sourceTree = "<group>"; };
+		400A8AA01A299DB8008E7907 /* RSSteps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSteps.h; sourceTree = "<group>"; };
+		400A8AA11A299DB8008E7907 /* RSSteps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSteps.m; sourceTree = "<group>"; };
+		400A8AA31A299DD1008E7907 /* RSIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSIngredient.h; sourceTree = "<group>"; };
+		400A8AA41A299DD1008E7907 /* RSIngredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSIngredient.m; sourceTree = "<group>"; };
+		400A8AA61A29A373008E7907 /* RSDatabaseAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDatabaseAccess.h; sourceTree = "<group>"; };
+		400A8AA71A29A373008E7907 /* RSDatabaseAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDatabaseAccess.m; sourceTree = "<group>"; };
+		400A8AA91A29A4D8008E7907 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		400A8AB51A2BF191008E7907 /* RSAddRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAddRecipeViewController.h; sourceTree = "<group>"; };
+		400A8B841A2FAEC6008E7907 /* RSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUtility.h; sourceTree = "<group>"; };
+		400A8B851A2FAEC7008E7907 /* RSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUtility.m; sourceTree = "<group>"; };
+		400A8B871A310A62008E7907 /* RSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSearchViewController.h; sourceTree = "<group>"; };
+		400A8B881A310A62008E7907 /* RSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSearchViewController.m; sourceTree = "<group>"; };
+		400A8B8A1A3118E4008E7907 /* RSConditionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSConditionTableViewController.h; sourceTree = "<group>"; };
+		400A8B8B1A3118E4008E7907 /* RSConditionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSConditionTableViewController.m; sourceTree = "<group>"; };
+		400A8B8D1A311D71008E7907 /* RSAddRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAddRecipeViewController.m; sourceTree = "<group>"; };
+		400A8B901A3191E9008E7907 /* RSConditionTableViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSConditionTableViewControllerDelegate.h; sourceTree = "<group>"; };
+		400A8B911A323615008E7907 /* RSOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOptionsTableViewController.h; sourceTree = "<group>"; };
+		400A8B921A323615008E7907 /* RSOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOptionsTableViewController.m; sourceTree = "<group>"; };
+		400A8B941A323ED4008E7907 /* RSOptionTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOptionTableViewDelegate.h; sourceTree = "<group>"; };
+		400A8B951A325675008E7907 /* RSDataExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDataExchange.h; sourceTree = "<group>"; };
+		400A8B961A325675008E7907 /* RSDataExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDataExchange.m; sourceTree = "<group>"; };
+		400A8B9C1A32AE34008E7907 /* RSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSConstants.h; sourceTree = "<group>"; };
+		400A8B9D1A32AE34008E7907 /* RSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSConstants.m; sourceTree = "<group>"; };
+		400A8BA11A32C5BA008E7907 /* RSSearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSearchResultTableViewController.h; sourceTree = "<group>"; };
+		400A8BA21A32C5BA008E7907 /* RSSearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSearchResultTableViewController.m; sourceTree = "<group>"; };
+		400A8BA41A32DD48008E7907 /* RSSearchCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSearchCriteria.h; sourceTree = "<group>"; };
+		400A8BA51A32DD48008E7907 /* RSSearchCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSearchCriteria.m; sourceTree = "<group>"; };
+		40A93EC41A3AB837001BEDD2 /* Cookbook.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cookbook.sqlite; sourceTree = "<group>"; };
+		40A93EC81A3ABD57001BEDD2 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		40A93EC91A3ABD57001BEDD2 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		40A93ECB1A3AC0D0001BEDD2 /* Recipe-Book-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Recipe-Book-icon.png"; path = "Images.xcassets/Recipe-Book-icon.png"; sourceTree = "<group>"; };
+		40A9BD601A37C516002384B7 /* RSIngredientsTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSIngredientsTableViewDelegate.h; sourceTree = "<group>"; };
+		40A9BD611A37D97F002384B7 /* RSMethodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMethodTableViewController.h; sourceTree = "<group>"; };
+		40A9BD621A37D97F002384B7 /* RSMethodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMethodTableViewController.m; sourceTree = "<group>"; };
+		40A9BD641A37D9AA002384B7 /* RSMethodTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSMethodTableViewDelegate.h; sourceTree = "<group>"; };
+		40D01D571A33A27A00B6678D /* RSAddRecipeToOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAddRecipeToOptionsTableViewController.h; sourceTree = "<group>"; };
+		40D01D581A33A27B00B6678D /* RSAddRecipeToOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAddRecipeToOptionsTableViewController.m; sourceTree = "<group>"; };
+		40D01D5A1A33A35400B6678D /* RSAddRecipeToOptionsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAddRecipeToOptionsDelegate.h; sourceTree = "<group>"; };
+		40D01D5B1A33B09500B6678D /* RSAddRecipeViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAddRecipeViewDelegate.h; sourceTree = "<group>"; };
+		40D01D671A35173900B6678D /* RSAllCollectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAllCollectionsTableViewController.h; sourceTree = "<group>"; };
+		40D01D681A35173900B6678D /* RSAllCollectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAllCollectionsTableViewController.m; sourceTree = "<group>"; };
+		40D01D6A1A35298900B6678D /* RSCollectionRecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCollectionRecipesViewController.h; sourceTree = "<group>"; };
+		40D01D6B1A35298900B6678D /* RSCollectionRecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCollectionRecipesViewController.m; sourceTree = "<group>"; };
+		40D01D6D1A3529C000B6678D /* RSCollectionRecipesViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCollectionRecipesViewDelegate.h; sourceTree = "<group>"; };
+		40D01D7A1A376B5500B6678D /* RSIngredientsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSIngredientsTableViewController.h; sourceTree = "<group>"; };
+		40D01D7B1A376B5500B6678D /* RSIngredientsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSIngredientsTableViewController.m; sourceTree = "<group>"; };
+		40D01D831A37980000B6678D /* RSUnitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUnitTableViewController.h; sourceTree = "<group>"; };
+		40D01D841A37980000B6678D /* RSUnitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUnitTableViewController.m; sourceTree = "<group>"; };
+		40D01D861A37984400B6678D /* RSUnitTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSUnitTableViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400A8AAA1A29A4D8008E7907 /* libsqlite3.dylib in Frameworks */,
 				400A8A621A299D0F008E7907 /* CoreGraphics.framework in Frameworks */,
 				400A8A641A299D0F008E7907 /* UIKit.framework in Frameworks */,
 				400A8A601A299D0F008E7907 /* Foundation.framework in Frameworks */,
@@ -104,6 +182,7 @@
 		400A8A5E1A299D0F008E7907 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				400A8AA91A29A4D8008E7907 /* libsqlite3.dylib */,
 				400A8A5F1A299D0F008E7907 /* Foundation.framework */,
 				400A8A611A299D0F008E7907 /* CoreGraphics.framework */,
 				400A8A631A299D0F008E7907 /* UIKit.framework */,
@@ -115,15 +194,14 @@
 		400A8A651A299D0F008E7907 /* Cookbook */ = {
 			isa = PBXGroup;
 			children = (
-				400A8A6E1A299D0F008E7907 /* RSAppDelegate.h */,
-				400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */,
-				400A8A711A299D0F008E7907 /* Main.storyboard */,
-				400A8A741A299D0F008E7907 /* RSFirstViewController.h */,
-				400A8A751A299D0F008E7907 /* RSFirstViewController.m */,
-				400A8A771A299D0F008E7907 /* RSSecondViewController.h */,
-				400A8A781A299D0F008E7907 /* RSSecondViewController.m */,
+				40D01D781A37603500B6678D /* controller */,
+				40D01D6E1A36235300B6678D /* database */,
+				40D01D711A3623CD00B6678D /* datamodel */,
 				400A8A7A1A299D0F008E7907 /* Images.xcassets */,
+				40A93ECB1A3AC0D0001BEDD2 /* Recipe-Book-icon.png */,
 				400A8A661A299D0F008E7907 /* Supporting Files */,
+				40D01D721A3623F200B6678D /* utility */,
+				40D01D791A37606300B6678D /* view */,
 			);
 			path = Cookbook;
 			sourceTree = "<group>";
@@ -131,6 +209,7 @@
 		400A8A661A299D0F008E7907 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40A93EC41A3AB837001BEDD2 /* Cookbook.sqlite */,
 				400A8A671A299D0F008E7907 /* Cookbook-Info.plist */,
 				400A8A681A299D0F008E7907 /* InfoPlist.strings */,
 				400A8A6B1A299D0F008E7907 /* main.m */,
@@ -155,6 +234,138 @@
 				400A8A8A1A299D10008E7907 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40D01D6E1A36235300B6678D /* database */ = {
+			isa = PBXGroup;
+			children = (
+				400A8AA61A29A373008E7907 /* RSDatabaseAccess.h */,
+				400A8AA71A29A373008E7907 /* RSDatabaseAccess.m */,
+				400A8B951A325675008E7907 /* RSDataExchange.h */,
+				400A8B961A325675008E7907 /* RSDataExchange.m */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		40D01D6F1A36238B00B6678D /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				40D01D6A1A35298900B6678D /* RSCollectionRecipesViewController.h */,
+				40D01D6B1A35298900B6678D /* RSCollectionRecipesViewController.m */,
+				40D01D671A35173900B6678D /* RSAllCollectionsTableViewController.h */,
+				40D01D681A35173900B6678D /* RSAllCollectionsTableViewController.m */,
+			);
+			name = collection;
+			sourceTree = "<group>";
+		};
+		40D01D701A3623AD00B6678D /* recipe */ = {
+			isa = PBXGroup;
+			children = (
+				400A8AB51A2BF191008E7907 /* RSAddRecipeViewController.h */,
+				400A8B8D1A311D71008E7907 /* RSAddRecipeViewController.m */,
+				40D01D7A1A376B5500B6678D /* RSIngredientsTableViewController.h */,
+				40D01D7B1A376B5500B6678D /* RSIngredientsTableViewController.m */,
+				40A9BD611A37D97F002384B7 /* RSMethodTableViewController.h */,
+				40A9BD621A37D97F002384B7 /* RSMethodTableViewController.m */,
+				400A8A741A299D0F008E7907 /* RSRecipeViewController.h */,
+				400A8A751A299D0F008E7907 /* RSRecipeViewController.m */,
+			);
+			name = recipe;
+			sourceTree = "<group>";
+		};
+		40D01D711A3623CD00B6678D /* datamodel */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A9D1A299DA2008E7907 /* RSCollection.h */,
+				400A8A9E1A299DA2008E7907 /* RSCollection.m */,
+				400A8A9A1A299D93008E7907 /* RSCuisine.h */,
+				400A8A9B1A299D93008E7907 /* RSCuisine.m */,
+				400A8AA31A299DD1008E7907 /* RSIngredient.h */,
+				400A8AA41A299DD1008E7907 /* RSIngredient.m */,
+				400A8A971A299D6B008E7907 /* RSRecipe.h */,
+				400A8A981A299D6B008E7907 /* RSRecipe.m */,
+				400A8BA41A32DD48008E7907 /* RSSearchCriteria.h */,
+				400A8BA51A32DD48008E7907 /* RSSearchCriteria.m */,
+				400A8AA01A299DB8008E7907 /* RSSteps.h */,
+				400A8AA11A299DB8008E7907 /* RSSteps.m */,
+			);
+			name = datamodel;
+			sourceTree = "<group>";
+		};
+		40D01D721A3623F200B6678D /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				40A93EC81A3ABD57001BEDD2 /* UIImage+Scale.h */,
+				40A93EC91A3ABD57001BEDD2 /* UIImage+Scale.m */,
+				400A8B9C1A32AE34008E7907 /* RSConstants.h */,
+				400A8B9D1A32AE34008E7907 /* RSConstants.m */,
+				400A8B841A2FAEC6008E7907 /* RSUtility.h */,
+				400A8B851A2FAEC7008E7907 /* RSUtility.m */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		40D01D731A36240900B6678D /* search */ = {
+			isa = PBXGroup;
+			children = (
+				400A8B8A1A3118E4008E7907 /* RSConditionTableViewController.h */,
+				400A8B8B1A3118E4008E7907 /* RSConditionTableViewController.m */,
+				400A8BA11A32C5BA008E7907 /* RSSearchResultTableViewController.h */,
+				400A8BA21A32C5BA008E7907 /* RSSearchResultTableViewController.m */,
+				400A8B871A310A62008E7907 /* RSSearchViewController.h */,
+				400A8B881A310A62008E7907 /* RSSearchViewController.m */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		40D01D751A36254500B6678D /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A6E1A299D0F008E7907 /* RSAppDelegate.h */,
+				400A8A6F1A299D0F008E7907 /* RSAppDelegate.m */,
+				400A8B901A3191E9008E7907 /* RSConditionTableViewControllerDelegate.h */,
+				400A8B941A323ED4008E7907 /* RSOptionTableViewDelegate.h */,
+				40D01D5A1A33A35400B6678D /* RSAddRecipeToOptionsDelegate.h */,
+				40D01D5B1A33B09500B6678D /* RSAddRecipeViewDelegate.h */,
+				40D01D6D1A3529C000B6678D /* RSCollectionRecipesViewDelegate.h */,
+				40D01D861A37984400B6678D /* RSUnitTableViewDelegate.h */,
+				40A9BD601A37C516002384B7 /* RSIngredientsTableViewDelegate.h */,
+				40A9BD641A37D9AA002384B7 /* RSMethodTableViewDelegate.h */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		40D01D781A37603500B6678D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				40D01D6F1A36238B00B6678D /* collection */,
+				40D01D751A36254500B6678D /* delegate */,
+				40D01D821A37978A00B6678D /* options */,
+				40D01D701A3623AD00B6678D /* recipe */,
+				40D01D731A36240900B6678D /* search */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		40D01D791A37606300B6678D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				400A8A711A299D0F008E7907 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		40D01D821A37978A00B6678D /* options */ = {
+			isa = PBXGroup;
+			children = (
+				40D01D571A33A27A00B6678D /* RSAddRecipeToOptionsTableViewController.h */,
+				40D01D581A33A27B00B6678D /* RSAddRecipeToOptionsTableViewController.m */,
+				400A8B921A323615008E7907 /* RSOptionsTableViewController.m */,
+				400A8B911A323615008E7907 /* RSOptionsTableViewController.h */,
+				40D01D831A37980000B6678D /* RSUnitTableViewController.h */,
+				40D01D841A37980000B6678D /* RSUnitTableViewController.m */,
+			);
+			name = options;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +416,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Raksha Singhania";
 				TargetAttributes = {
+					400A8A5B1A299D0F008E7907 = {
+						DevelopmentTeam = H7739QEN48;
+					};
 					400A8A7F1A299D0F008E7907 = {
 						TestTargetID = 400A8A5B1A299D0F008E7907;
 					};
@@ -236,7 +450,9 @@
 			files = (
 				400A8A7B1A299D0F008E7907 /* Images.xcassets in Resources */,
 				400A8A6A1A299D0F008E7907 /* InfoPlist.strings in Resources */,
+				40A93EC51A3AB837001BEDD2 /* Cookbook.sqlite in Resources */,
 				400A8A731A299D0F008E7907 /* Main.storyboard in Resources */,
+				40A93ECC1A3AC0D0001BEDD2 /* Recipe-Book-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +471,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400A8B931A323615008E7907 /* RSOptionsTableViewController.m in Sources */,
+				400A8AA21A299DB8008E7907 /* RSSteps.m in Sources */,
+				40A9BD631A37D97F002384B7 /* RSMethodTableViewController.m in Sources */,
+				40D01D591A33A27B00B6678D /* RSAddRecipeToOptionsTableViewController.m in Sources */,
+				400A8B861A2FAEC7008E7907 /* RSUtility.m in Sources */,
 				400A8A6C1A299D0F008E7907 /* main.m in Sources */,
+				400A8BA31A32C5BA008E7907 /* RSSearchResultTableViewController.m in Sources */,
+				40D01D851A37980000B6678D /* RSUnitTableViewController.m in Sources */,
+				40D01D691A35173900B6678D /* RSAllCollectionsTableViewController.m in Sources */,
 				400A8A701A299D0F008E7907 /* RSAppDelegate.m in Sources */,
-				400A8A761A299D0F008E7907 /* RSFirstViewController.m in Sources */,
-				400A8A791A299D0F008E7907 /* RSSecondViewController.m in Sources */,
+				40D01D7C1A376B5500B6678D /* RSIngredientsTableViewController.m in Sources */,
+				400A8A9F1A299DA2008E7907 /* RSCollection.m in Sources */,
+				400A8AA51A299DD1008E7907 /* RSIngredient.m in Sources */,
+				400A8B9E1A32AE35008E7907 /* RSConstants.m in Sources */,
+				400A8A761A299D0F008E7907 /* RSRecipeViewController.m in Sources */,
+				400A8A9C1A299D93008E7907 /* RSCuisine.m in Sources */,
+				400A8B8E1A311D71008E7907 /* RSAddRecipeViewController.m in Sources */,
+				40D01D6C1A35298900B6678D /* RSCollectionRecipesViewController.m in Sources */,
+				400A8B891A310A62008E7907 /* RSSearchViewController.m in Sources */,
+				400A8A991A299D6B008E7907 /* RSRecipe.m in Sources */,
+				400A8B8C1A3118E4008E7907 /* RSConditionTableViewController.m in Sources */,
+				40A93ECA1A3ABD57001BEDD2 /* UIImage+Scale.m in Sources */,
+				400A8AA81A29A373008E7907 /* RSDatabaseAccess.m in Sources */,
+				400A8B971A325675008E7907 /* RSDataExchange.m in Sources */,
+				400A8BA61A32DD48008E7907 /* RSSearchCriteria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +620,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
 				INFOPLIST_FILE = "Cookbook/Cookbook-Info.plist";
@@ -396,6 +634,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
 				INFOPLIST_FILE = "Cookbook/Cookbook-Info.plist";
@@ -463,6 +702,7 @@
 				400A8A931A299D10008E7907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		400A8A941A299D10008E7907 /* Build configuration list for PBXNativeTarget "CookbookTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +711,7 @@
 				400A8A961A299D10008E7907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
